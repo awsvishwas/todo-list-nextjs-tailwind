@@ -21,9 +21,9 @@ export async function GET(request){
 }
 
 export async function POST(request){
-    const {title,description} = await request.json()
+    const {title,description,tag,classification,dueDate} = await request.json()
     await TodoModel.create({
-        title,description
+        title,description,tag,classification, dueDate
     })
     return NextResponse.json({msg: 'Todo Created'})
 }

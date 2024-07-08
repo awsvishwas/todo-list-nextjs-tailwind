@@ -3,3 +3,27 @@
 @tailwind utilities;
 
 
+.myclass{
+    transition: 0.2s ease-in ;
+}
+/* Target the scrollbar element */
+::-webkit-scrollbar {
+    width: 6px; /* Adjust width for desired thinness */
+    height: 6px; /* Adjust height for a thin and sharp look */
+  }
+  
+  /* Style the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light background for the track */
+  }
+  
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background: #cccccc; /* Adjust color for the thumb */
+    border-radius: 5px; /* Add a slight roundness for smoothness */
+  }
+  
+  /* Style the thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #bbbbbb; /* Slightly darker on hover */
+  }

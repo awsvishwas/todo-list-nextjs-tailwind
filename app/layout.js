@@ -1,7 +1,6 @@
-import { Inter } from "next/font/google";
+import { Arimo, Inter, Manrope, Open_Sans, Roboto_Flex } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+const inter = Arimo({ subsets: ["latin"] });
 
 export const metadata = {
   title: "To Do App",
